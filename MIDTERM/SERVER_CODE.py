@@ -18,4 +18,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
             if not data:
                 break
             print(f"Received from client: {data.decode()}")
-            conn.sendall(data)  # Echo back to client
+            conn.sendall(data)  # Echo back to client 
